@@ -1628,6 +1628,7 @@ clearInterval(canConnectTimer);
 var canConnectTimer;
 $( document ).ready(function() {
     if(enablcnv2){
+	    canConnectTimer = setInterval(timerConnectV2Func, 1000);
 	}
 });
 
